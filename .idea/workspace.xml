@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dff25ac4-ae87-4396-b0bb-af13a28a1a5f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kolll/datafetch/CovidApi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kolll/datafetch/DataProviderService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -200,7 +197,8 @@
       <updated>1587670938282</updated>
       <workItem from="1587670941513" duration="964000" />
       <workItem from="1587719436187" duration="1103000" />
-      <workItem from="1587720610467" duration="3859000" />
+      <workItem from="1587720610467" duration="4128000" />
+      <workItem from="1587724808409" duration="14000" />
     </task>
     <servers />
   </component>
@@ -212,7 +210,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
