@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dff25ac4-ae87-4396-b0bb-af13a28a1a5f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-    </list>
+    <list default="true" id="dff25ac4-ae87-4396-b0bb-af13a28a1a5f" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -196,7 +194,7 @@
       <updated>1587670938282</updated>
       <workItem from="1587670941513" duration="964000" />
       <workItem from="1587719436187" duration="1103000" />
-      <workItem from="1587720610467" duration="1703000" />
+      <workItem from="1587720610467" duration="2032000" />
     </task>
     <servers />
   </component>
@@ -213,5 +211,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/CodivApp" />
+    </ignored-roots>
   </component>
 </project>
