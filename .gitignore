@@ -54,3 +54,5 @@ build/generated/
 build/tmp/compileJava/
 src/main/resources/
 src/test/
+/.gradle/
+/build/
