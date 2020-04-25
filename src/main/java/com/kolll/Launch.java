@@ -17,6 +17,10 @@ import javafx.stage.StageStyle;
 import java.awt.*;
 
 public class Launch extends Application {
+
+    private double xOffset;
+    private double yOffset;
+
     @Override
     public void start(Stage primaryStage) throws Exception {
         primaryStage.initStyle(StageStyle.UTILITY);
@@ -36,8 +40,17 @@ public class Launch extends Application {
         Rectangle2D visualBounds = Screen.getPrimary().getVisualBounds();
         secondaryStage.setX(visualBounds.getMaxX() - 25 - scene.getWidth());
         secondaryStage.setY(visualBounds.getMinY() + 25);
-//
-//        CovidDataModel dataModel = new DataProviderService().getData("Russia");
-//        System.out.println(dataModel.toString());
+
+//        Drag and Move
+
+        scene.setOnMousePressed(mouseEvent -> {
+            xOffset =secondaryStage.getX() - mouseEvent.getScreenX();
+            yOffset = secondaryStage.getY() - mouseEvent.getScreenY();
+        });
+
+        scene.setOnMouseDragged( mouseEvent ->{
+            secondaryStage.setX(mouseEvent.getScreenX() + xOffset);
+            secondaryStage.setY(mouseEvent.getScreenY() + yOffset);
+        });
     }
 }
