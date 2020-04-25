@@ -56,3 +56,4 @@ src/main/resources/
 src/test/
 /.gradle/
 /build/
+.idea/workspace.xml
