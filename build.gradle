@@ -7,6 +7,8 @@ plugins {
 group 'qweqwe'
 version '1.0-SNAPSHOT'
 
+sourceSets.main.resources.srcDirs("src/main/java").includes.addAll(["**/*.fxml", "**/*.css","**/*.png"])
+sourceSets.main.resources.srcDirs("src/main/resources").includes.addAll(["**/*.*"])
 
 repositories {
     mavenCentral()
@@ -17,6 +19,9 @@ dependencies {
 
     compile 'com.squareup.retrofit2:retrofit:2.8.1'
     compile 'com.squareup.retrofit2:converter-gson:2.8.1'
+
+    implementation 'org.kordamp.ikonli:ikonli-javafx:11.4.0'
+    implementation 'org.kordamp.ikonli:ikonli-fontawesome-pack:11.4.0'
 }
 
 javafx {
