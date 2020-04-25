@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dff25ac4-ae87-4396-b0bb-af13a28a1a5f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/kolll/Launch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kolll/Launch.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -206,7 +205,7 @@
       <workItem from="1587733381888" duration="590000" />
       <workItem from="1587749732814" duration="7520000" />
       <workItem from="1587809908909" duration="133000" />
-      <workItem from="1587832036193" duration="7026000" />
+      <workItem from="1587832036193" duration="7470000" />
     </task>
     <servers />
   </component>
