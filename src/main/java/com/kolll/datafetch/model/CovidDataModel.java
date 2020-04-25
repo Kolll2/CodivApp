@@ -9,12 +9,12 @@ public class CovidDataModel {
         this.countryData = countryData;
     }
 
-    public void setGlobalData(GlobalData globalData) {
-        this.globalData = globalData;
+    public GlobalData getGlobalData() {
+        return globalData;
     }
 
-    public void setCountryData(CountryData countryData) {
-        this.countryData = countryData;
+    public CountryData getCountryData() {
+        return countryData;
     }
 
     @Override
