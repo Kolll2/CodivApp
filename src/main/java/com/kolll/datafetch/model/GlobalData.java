@@ -3,7 +3,7 @@ package com.kolll.datafetch.model;
 public class GlobalData {
     private long recovered;
     private long cases;
-    private long death;
+    private long deaths;
 
     public long getRecovered() {
         return recovered;
@@ -22,11 +22,11 @@ public class GlobalData {
     }
 
     public long getDeath() {
-        return death;
+        return deaths;
     }
 
-    public void setDeath(long death) {
-        this.death = death;
+    public void setDeath(long deaths) {
+        this.deaths = deaths;
     }
 
     @Override
@@ -34,7 +34,7 @@ public class GlobalData {
         return "GlobalData{" +
                 "recovered=" + recovered +
                 ", cases=" + cases +
-                ", death=" + death +
+                ", deaths=" + deaths +
                 '}';
     }
 }
